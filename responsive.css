@@ -13,7 +13,11 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1em;
-	background-color: #EFF5F8;
+	background-image: url(“images/marketing-bg.jpg”);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 #wrapper {
 	width: 100%;
@@ -27,6 +31,7 @@ h1, h2 {
 	font-weight: 400;
 }
 h1 {
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top: 20px;
@@ -36,13 +41,44 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top: 0.5em;
 	font-size: 2.25em;
 }
+p  {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.2em;
+line-height: 1.6;
+	 color: #fff;
+}
+nav{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: grooved rgba(255, 0, 255, 0.774);
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
 a {
+	color: #444;
 	font-weight: bold;
 	text-decoration: none;
 }
+a:hover{
+	color: black;
+	background: gray;
+}
+
 a:link {
 	color: #F68979;
 }
